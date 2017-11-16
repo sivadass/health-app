@@ -5,8 +5,6 @@ import { HashRouter as Router, Route, Link, Redirect, withRouter } from 'react-r
 // Styles
 import './stylesheets/style.scss'
 
-// Components
-
 render(
     <Router>
       <div className="app-wrapper">
