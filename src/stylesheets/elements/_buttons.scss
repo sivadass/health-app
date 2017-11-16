@@ -1,0 +1,67 @@
+button{
+  i{
+    &:before{
+      line-height: 28px;
+      font-size: 28px;
+      margin-right: 8px;
+      vertical-align: middle;
+    }
+  }
+  span{
+    display: inline-block;
+    line-height: 28px;
+    height: 28px;
+  }
+}
+
+.button-primary{
+  color: $white;
+  background: $primary-color;
+  border-color: transparent;
+  &:hover{
+    background: darken($primary-color, 4%);
+  }
+}
+// Anchor Buttons
+.button{
+  border: 1px solid $primary-color;
+  border-radius: 4px;
+  height: 44px;
+  line-height: 44px;
+  text-align: center;
+  padding: 0 8px;
+  display: block;
+  width: 100%;
+  cursor: pointer;
+  background: $white;
+  transition: all 400ms ease;
+  &:hover{
+    background: $primary-color;
+    color: $white;
+  }
+}
+// Social Login Buttons
+.social-login{
+  display: flex;
+  display: -webkit-flex;
+  margin: 0 -8px 16px -8px;
+  button{
+    margin: 0 8px;
+  }
+  .facebook{
+    color: #3b5998;
+    border-color: #3b5998;
+    &:hover{
+      background: #3b5998;
+      color: #fff;
+    }
+  }
+  .google-plus{
+    color: #d34836;
+    border-color: #d34836;
+    &:hover{
+      background: #d34836;
+      color: #fff;
+    }
+  }
+}

@@ -1,0 +1,147 @@
+body{
+  font-family: 'Oxygen', Arial, sans-serif;
+  font-size: 16px;
+  background: #f2f2f2;
+}
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+  color: $primary-color;
+}
+  
+input[type="text"],
+input[type="number"],
+input[type="password"],
+select,
+textarea{
+  font-family: inherit;
+  font-size: inherit;
+  box-sizing: border-box;
+  &:focus,
+  &:active{
+    outline: none;
+  }
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+input[type=number] {
+  -moz-appearance: textfield;
+}
+textarea{
+  padding: 8px;
+  height: 64px;
+}
+input[type=checkbox],
+input[type=radio]{
+  display: none;
+}
+button{
+  font-size: inherit;
+  border: 1px solid $gray-eighty;
+  border-radius: 4px;
+  height: 44px;
+  padding: 0 8px;
+  display: block;
+  width: 100%;
+  margin-bottom: 16px;
+  cursor: pointer;
+  background: $white;
+  transition: all 400ms ease;
+  &.button-inline{
+    display: inline-block;
+    width: auto;
+    margin: 0 4px 0 4px;
+    padding: 0 4px;
+    height: 24px;
+  }
+  &:hover{
+    background: #eee;
+  }
+}
+
+ul{
+  padding: 0;
+  margin: 0;
+  li{
+    list-style-type: none;
+  }
+}
+
+// Table
+table { 
+  width: 100%; 
+  border-collapse: collapse; 
+}
+/* Zebra striping */
+tr:nth-of-type(odd) { 
+  background: #f7f7f7; 
+}
+tr:hover{
+  background: #eeeeee !important;
+}
+th { 
+  background: #eee; 
+  text-transform: uppercase;
+  font-weight: normal;
+  color: $gray-light;
+}
+td, th { 
+  padding: 16px; 
+  text-align: left; 
+}
+td{
+  color: $gray-medium;
+  cursor: pointer;
+  @media (max-width: 480px){
+    padding: 12px 8px;
+  }
+}
+
+// Utitlities
+.text-ar{
+  text-align: right;
+}
+.text-al{
+  text-align: left;
+}
+.text-ac{
+  text-align: center;
+}
+.currency-sign{
+  &:before{
+    content: "\20b9";
+    margin-right: 4px;
+  }
+}
+
+// Scafollding
+.container{
+  padding: 16px 64px;
+  @media (max-width: 768px){
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  @media (max-width: 480px){
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+.page-title{
+  display: flex;
+  display: -webkit-flex;
+  margin-bottom: 16px;
+  h2{
+    font-weight: 400;
+  }
+  .back-button{
+    margin-right: 16px;
+  }
+}

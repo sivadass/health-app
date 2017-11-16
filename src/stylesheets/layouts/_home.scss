@@ -1,0 +1,40 @@
+main {
+  .container{
+    padding: 16px 32px;
+    .wrapper{
+      background: #f9f9f9;
+      border-radius: 4px;
+      padding: 16px;
+    }
+  }
+}
+
+
+.dummy-component{
+  padding: 64px;
+  color: $gray-light;
+  text-align: center;
+  h1{
+    margin-bottom: 24px;
+  }
+}
+
+.survey-step-1{
+  padding: 32px;
+  margin: 16px auto;
+  max-width: 600px;
+  background: $white;
+  border: 1px solid $white;
+  border-radius: 4px;
+}
+
+.footer-navigation{
+  max-width: 600px;
+  margin: 32px auto;
+  align-items: right;
+  display: flex;
+  justify-content: space-between;
+  button{
+    width: 200px;
+  }
+}

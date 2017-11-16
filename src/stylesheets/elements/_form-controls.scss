@@ -1,0 +1,123 @@
+// Input 
+.form-group{
+  margin-bottom: 16px;
+  &.form-group-icon{
+    position: relative;
+  }
+}
+.form-label{
+  margin-bottom: 8px;
+  display: block;
+}
+.form-control{
+  background: $white;
+  border: 1px solid $gray-eighty;
+  border-radius: 4px;
+  height: 44px;
+  padding: 0 8px;
+  display: block;
+  width: 100%;
+  &:focus,
+  &:active{
+    border-color: darken($primary-color, 20%);
+  }
+}
+select.form-control{
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  text-indent: 1px;
+  text-overflow: '';
+  background: url('data:image/svg+xml;utf8,<svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path stroke="#CCC" stroke-width="1.5" d="M4.087 8.04l7.985 7.926 7.943-8.02"/></g></svg>') 98% center no-repeat $white;
+}
+
+
+textarea.form-control{
+  min-height: 64px;
+}
+
+// Input with icons
+.form-control-icon{
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 44px;
+  height: 44px;
+  width: 48px;
+  text-align: center;
+  font-size: 24px;
+  color: $gray-eighty;
+  & + .form-control{
+    padding-left: 48px;
+  }
+}
+
+// Checkbox and Radio Buttons
+.form-control-wrapper{
+  position: relative;
+  margin-bottom: 8px;
+  &.inline{
+    display: inline-block;
+    margin-right: 24px;
+    margin-bottom: 0;
+  }
+}
+
+.form-check-label{
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  &:before{
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    font-family: 'littebirds' !important;
+    font-size: 20px;
+    line-height: 24px;
+    color: $gray-light;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 24px;
+    width: 24px;
+    margin-right: 4px;
+    transition: all 300ms ease;
+  }
+}
+
+input[type=radio] + .form-check-label{
+  padding-left: 28px;
+  line-height: 24px;
+  &:before{
+    content: "\e836";
+  }
+}
+
+input[type=radio]:checked + .form-check-label {
+  color: $primary-color;
+	&:before{
+    content: "\e837";
+    color: $primary-color;
+  }
+}
+
+input[type=checkbox] + .form-check-label{
+  padding-left: 28px;
+  line-height: 24px;
+  &:before{
+    content: "\e835";
+  }
+}
+
+input[type=checkbox]:checked + .form-check-label {
+  color: $primary-color;
+	&:before{
+    content: "\e834";
+    color: $primary-color;
+  }
+}
