@@ -11522,27 +11522,26 @@ var _reactRouterDom = __webpack_require__(203);
 
 __webpack_require__(231);
 
+var _app = __webpack_require__(232);
+
+var _app2 = _interopRequireDefault(_app);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 // Render
+
+
+// Styles
 (0, _reactDom.render)(_react2.default.createElement(
   _reactRouterDom.HashRouter,
   null,
-  _react2.default.createElement(
-    'div',
-    { className: 'app-wrapper' },
-    _react2.default.createElement(
-      'h1',
-      null,
-      'Hello world!'
-    )
-  )
+  _react2.default.createElement(_app2.default, null)
 ), document.getElementById('root'), function () {
   var loader = document.getElementById('app-loader');
   loader.parentNode.removeChild(loader);
 });
 
-// Styles
+// Components
 
 /***/ }),
 /* 103 */
@@ -26617,6 +26616,13 @@ module.exports = function hoistNonReactStatics(targetComponent, sourceComponent,
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
+
+/***/ }),
+/* 232 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
 
 /***/ })
 /******/ ]);

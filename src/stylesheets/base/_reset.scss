@@ -1,6 +1,6 @@
 body{
   font-family: 'Lato', Arial, sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   background: #f5f5f5;
   display: flex;
   display: -webkit-flex;
@@ -8,6 +8,7 @@ body{
   -webkit-align-items: center;
   justify-content: center;
   -webkit-justify-content: center;
+  font-weight: 300;
 }
 *{
   padding: 0;
@@ -17,6 +18,12 @@ body{
 a{
   text-decoration: none;
   color: $primary-color;
+}
+h1,
+h2,
+h3,
+h4{
+  font-weight: 400;
 }
   
 input[type="text"],
