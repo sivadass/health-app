@@ -1,7 +1,13 @@
 body{
-  font-family: 'Oxygen', Arial, sans-serif;
+  font-family: 'Lato', Arial, sans-serif;
   font-size: 16px;
-  background: #f2f2f2;
+  background: #f5f5f5;
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  -webkit-align-items: center;
+  justify-content: center;
+  -webkit-justify-content: center;
 }
 *{
   padding: 0;
@@ -123,6 +129,13 @@ td{
 }
 
 // Scafollding
+#root{
+  flex-basis: 360px;
+  -webkit-flex-basis: 360px;
+  border: 1px solid #ccc;
+  background: #fff;
+  height: 640px;
+}
 .container{
   padding: 16px 64px;
   @media (max-width: 768px){
