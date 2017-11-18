@@ -6,7 +6,12 @@ class Profile extends React.Component {
     return(
       <div>
         <header>
-          <Link to="/">Back</Link>
+          <Link to="" className="menu-button">
+            <img src="dist/back.svg" alt=""/>
+          </Link>
+          <Link to="/weight" className="menu-button">
+            <img src="dist/settings.svg" alt=""/>
+          </Link>
         </header>
         <main>
           <h1>Profile!</h1>

@@ -26736,8 +26736,13 @@ var Home = function (_React$Component) {
           null,
           _react2.default.createElement(
             _reactRouterDom.Link,
-            { to: '/profile' },
-            'Profile'
+            { to: '', className: 'menu-button' },
+            _react2.default.createElement('img', { src: 'dist/menu.svg', alt: 'Hamburger Menu' })
+          ),
+          _react2.default.createElement(
+            _reactRouterDom.Link,
+            { to: '/profile', className: 'menu-avatar' },
+            _react2.default.createElement('img', { src: 'dist/user.png', alt: 'User Avatar' })
           )
         ),
         _react2.default.createElement(
@@ -26768,7 +26773,12 @@ var Home = function (_React$Component) {
               _react2.default.createElement(
                 'h2',
                 null,
-                '37.65 \xB0'
+                '37.65 ',
+                _react2.default.createElement(
+                  'span',
+                  null,
+                  '\xB0'
+                )
               ),
               _react2.default.createElement(
                 'p',
@@ -26787,12 +26797,17 @@ var Home = function (_React$Component) {
               _react2.default.createElement(
                 'h2',
                 null,
-                '537 cal'
+                '537 ',
+                _react2.default.createElement(
+                  'span',
+                  null,
+                  'cal'
+                )
               ),
               _react2.default.createElement(
                 'p',
                 null,
-                'Calories'
+                'Calories burned'
               ),
               _react2.default.createElement(
                 'div',
@@ -26806,7 +26821,12 @@ var Home = function (_React$Component) {
               _react2.default.createElement(
                 'h2',
                 null,
-                '87 bpm'
+                '87 ',
+                _react2.default.createElement(
+                  'span',
+                  null,
+                  'bpm'
+                )
               ),
               _react2.default.createElement(
                 'p',
@@ -26919,8 +26939,13 @@ var Weight = function (_React$Component) {
           null,
           _react2.default.createElement(
             _reactRouterDom.Link,
-            { to: '/' },
-            'Back'
+            { to: '', className: 'menu-button' },
+            _react2.default.createElement('img', { src: 'dist/back.svg', alt: '' })
+          ),
+          _react2.default.createElement(
+            _reactRouterDom.Link,
+            { to: '', className: 'menu-button' },
+            _react2.default.createElement('img', { src: 'dist/settings.svg', alt: '' })
           )
         ),
         _react2.default.createElement(
@@ -27003,8 +27028,13 @@ var Profile = function (_React$Component) {
           null,
           _react2.default.createElement(
             _reactRouterDom.Link,
-            { to: '/' },
-            'Back'
+            { to: '', className: 'menu-button' },
+            _react2.default.createElement('img', { src: 'dist/back.svg', alt: '' })
+          ),
+          _react2.default.createElement(
+            _reactRouterDom.Link,
+            { to: '/weight', className: 'menu-button' },
+            _react2.default.createElement('img', { src: 'dist/settings.svg', alt: '' })
           )
         ),
         _react2.default.createElement(

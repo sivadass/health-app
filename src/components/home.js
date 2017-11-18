@@ -6,7 +6,12 @@ class Home extends React.Component {
     return(
       <div>
         <header>
-          <Link to="/profile">Profile</Link>
+          <Link to="" className="menu-button">
+            <img src="dist/menu.svg" alt="Hamburger Menu"/>
+          </Link>
+          <Link to="/profile" className="menu-avatar">
+            <img src="dist/user.png" alt="User Avatar"/>
+          </Link>
         </header>
         <main>
           <div className="welcome">
@@ -14,7 +19,7 @@ class Home extends React.Component {
           </div>
           <div className="kpi">
             <div className="kpi-item temperature">
-              <h2>37.65 &deg;</h2>
+              <h2>37.65 <span>&deg;</span></h2>
               <p>Temperature</p>
               <div className="trending-graph">
                 ...
@@ -22,15 +27,15 @@ class Home extends React.Component {
             </div>
 
             <div className="kpi-item calories">
-              <h2>537 cal</h2>
-              <p>Calories</p>
+              <h2>537 <span>cal</span></h2>
+              <p>Calories burned</p>
               <div className="trending-graph">
                 ...
               </div>
             </div>
 
             <div className="kpi-item bpm">
-              <h2>87 bpm</h2>
+              <h2>87 <span>bpm</span></h2>
               <p>Heart rate</p>
               <div className="trending-graph">
                 ...
