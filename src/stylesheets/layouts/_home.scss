@@ -1,6 +1,9 @@
 .welcome{
   margin-bottom: 24px;
   padding: 0 16px;
+  span{
+    color: #46accb;
+  }
 }
 .kpi{
   display: flex;
@@ -26,8 +29,24 @@
     font-size: 12px;
   }
 }
-.temperature h2 span{
-  font-size: 32px;
+.temperature{
+  border-left-color: transparent;
+  border-right-color: transparent;
+  border-bottom-color: transparent;
+  h2 span{
+    font-size: 32px;
+  }
+}
+.calories{
+  border-bottom-color: transparent;
+  border-right-color: transparent;
+}
+.bpm{
+  border-left-color: transparent;
+  border-right-color: transparent;
+}
+.steps{
+  border-right-color: transparent;
 }
 .morning-activity{
   padding: 0 16px;
