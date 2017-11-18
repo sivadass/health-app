@@ -426,7 +426,7 @@ header {
 .kpi-item {
   flex-basis: 50%;
   border: 1px solid #ccc;
-  padding: 24px; }
+  padding: 16px; }
   .kpi-item h2 {
     color: #333;
     font-size: 32px; }
