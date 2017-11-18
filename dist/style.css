@@ -124,16 +124,18 @@ td {
 .text-ac {
   text-align: center; }
 
-.currency-sign:before {
-  content: "\20B9";
-  margin-right: 4px; }
-
 #root {
   flex-basis: 360px;
   -webkit-flex-basis: 360px;
   border: 1px solid #ccc;
   background: #fff;
   height: 640px; }
+  @media (max-width: 480px) {
+    #root {
+      border: 0;
+      flex-basis: 100%;
+      -webkit-flex-basis: 100%;
+      height: 100vh; } }
 
 .container {
   padding: 16px 64px; }
