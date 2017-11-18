@@ -26728,11 +26728,130 @@ var Home = function (_React$Component) {
     value: function render() {
       return _react2.default.createElement(
         "div",
-        { className: "" },
+        null,
+        _react2.default.createElement("header", null),
         _react2.default.createElement(
-          "h1",
+          "main",
           null,
-          "Home!"
+          _react2.default.createElement(
+            "div",
+            { className: "welcome" },
+            _react2.default.createElement(
+              "h1",
+              null,
+              "Welcome back Jana,",
+              _react2.default.createElement("br", null),
+              " Things look ",
+              _react2.default.createElement(
+                "span",
+                null,
+                "alright"
+              )
+            )
+          ),
+          _react2.default.createElement(
+            "div",
+            { className: "kpi" },
+            _react2.default.createElement(
+              "div",
+              { className: "kpi-item temperature" },
+              _react2.default.createElement(
+                "h2",
+                null,
+                "37.65 \xB0"
+              ),
+              _react2.default.createElement(
+                "p",
+                null,
+                "Temperature"
+              ),
+              _react2.default.createElement(
+                "div",
+                { className: "trending-graph" },
+                "..."
+              )
+            ),
+            _react2.default.createElement(
+              "div",
+              { className: "kpi-item calories" },
+              _react2.default.createElement(
+                "h2",
+                null,
+                "537 cal"
+              ),
+              _react2.default.createElement(
+                "p",
+                null,
+                "Calories"
+              ),
+              _react2.default.createElement(
+                "div",
+                { className: "trending-graph" },
+                "..."
+              )
+            ),
+            _react2.default.createElement(
+              "div",
+              { className: "kpi-item bpm" },
+              _react2.default.createElement(
+                "h2",
+                null,
+                "87 bpm"
+              ),
+              _react2.default.createElement(
+                "p",
+                null,
+                "Heart rate"
+              ),
+              _react2.default.createElement(
+                "div",
+                { className: "trending-graph" },
+                "..."
+              )
+            ),
+            _react2.default.createElement(
+              "div",
+              { className: "kpi-item steps" },
+              _react2.default.createElement(
+                "h2",
+                null,
+                "3756"
+              ),
+              _react2.default.createElement(
+                "p",
+                null,
+                "Steps"
+              ),
+              _react2.default.createElement(
+                "div",
+                { className: "trending-graph" },
+                "..."
+              )
+            )
+          ),
+          _react2.default.createElement(
+            "div",
+            { className: "morning-activity" },
+            _react2.default.createElement(
+              "h1",
+              null,
+              "Morning Activity"
+            ),
+            _react2.default.createElement(
+              "p",
+              { className: "legends" },
+              _react2.default.createElement(
+                "span",
+                null,
+                "Today"
+              ),
+              _react2.default.createElement(
+                "span",
+                null,
+                "Average"
+              )
+            )
+          )
         )
       );
     }
