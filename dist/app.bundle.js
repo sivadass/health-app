@@ -26706,6 +26706,8 @@ var _react = __webpack_require__(8);
 
 var _react2 = _interopRequireDefault(_react);
 
+var _reactRouterDom = __webpack_require__(203);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -26724,131 +26726,139 @@ var Home = function (_React$Component) {
   }
 
   _createClass(Home, [{
-    key: "render",
+    key: 'render',
     value: function render() {
       return _react2.default.createElement(
-        "div",
+        'div',
         null,
-        _react2.default.createElement("header", null),
         _react2.default.createElement(
-          "main",
+          'header',
           null,
           _react2.default.createElement(
-            "div",
-            { className: "welcome" },
+            _reactRouterDom.Link,
+            { to: '/profile' },
+            'Profile'
+          )
+        ),
+        _react2.default.createElement(
+          'main',
+          null,
+          _react2.default.createElement(
+            'div',
+            { className: 'welcome' },
             _react2.default.createElement(
-              "h1",
+              'h1',
               null,
-              "Welcome back Jana,",
-              _react2.default.createElement("br", null),
-              " Things look ",
+              'Welcome back Jana,',
+              _react2.default.createElement('br', null),
+              ' Things look ',
               _react2.default.createElement(
-                "span",
+                'span',
                 null,
-                "alright"
+                'alright'
               )
             )
           ),
           _react2.default.createElement(
-            "div",
-            { className: "kpi" },
+            'div',
+            { className: 'kpi' },
             _react2.default.createElement(
-              "div",
-              { className: "kpi-item temperature" },
+              'div',
+              { className: 'kpi-item temperature' },
               _react2.default.createElement(
-                "h2",
+                'h2',
                 null,
-                "37.65 \xB0"
+                '37.65 \xB0'
               ),
               _react2.default.createElement(
-                "p",
+                'p',
                 null,
-                "Temperature"
+                'Temperature'
               ),
               _react2.default.createElement(
-                "div",
-                { className: "trending-graph" },
-                "..."
+                'div',
+                { className: 'trending-graph' },
+                '...'
               )
             ),
             _react2.default.createElement(
-              "div",
-              { className: "kpi-item calories" },
+              'div',
+              { className: 'kpi-item calories' },
               _react2.default.createElement(
-                "h2",
+                'h2',
                 null,
-                "537 cal"
+                '537 cal'
               ),
               _react2.default.createElement(
-                "p",
+                'p',
                 null,
-                "Calories"
+                'Calories'
               ),
               _react2.default.createElement(
-                "div",
-                { className: "trending-graph" },
-                "..."
+                'div',
+                { className: 'trending-graph' },
+                '...'
               )
             ),
             _react2.default.createElement(
-              "div",
-              { className: "kpi-item bpm" },
+              'div',
+              { className: 'kpi-item bpm' },
               _react2.default.createElement(
-                "h2",
+                'h2',
                 null,
-                "87 bpm"
+                '87 bpm'
               ),
               _react2.default.createElement(
-                "p",
+                'p',
                 null,
-                "Heart rate"
+                'Heart rate'
               ),
               _react2.default.createElement(
-                "div",
-                { className: "trending-graph" },
-                "..."
+                'div',
+                { className: 'trending-graph' },
+                '...'
               )
             ),
             _react2.default.createElement(
-              "div",
-              { className: "kpi-item steps" },
+              'div',
+              { className: 'kpi-item steps' },
               _react2.default.createElement(
-                "h2",
+                'h2',
                 null,
-                "3756"
+                '3756'
               ),
               _react2.default.createElement(
-                "p",
+                'p',
                 null,
-                "Steps"
+                'Steps'
               ),
               _react2.default.createElement(
-                "div",
-                { className: "trending-graph" },
-                "..."
+                'div',
+                { className: 'trending-graph' },
+                '...'
               )
             )
           ),
           _react2.default.createElement(
-            "div",
-            { className: "morning-activity" },
+            'div',
+            { className: 'morning-activity' },
             _react2.default.createElement(
-              "h1",
+              'h1',
               null,
-              "Morning Activity"
+              'Morning Activity'
             ),
             _react2.default.createElement(
-              "p",
-              { className: "legends" },
+              'p',
+              { className: 'legends' },
               _react2.default.createElement(
-                "span",
+                'span',
                 null,
-                "Today"
+                'Today'
               ),
               _react2.default.createElement(
-                "span",
+                'span',
                 null,
-                "Average"
+                'Average'
               )
             )
           )
@@ -26879,6 +26889,8 @@ var _react = __webpack_require__(8);
 
 var _react2 = _interopRequireDefault(_react);
 
+var _reactRouterDom = __webpack_require__(203);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -26897,25 +26909,43 @@ var Weight = function (_React$Component) {
   }
 
   _createClass(Weight, [{
-    key: "render",
+    key: 'render',
     value: function render() {
       return _react2.default.createElement(
-        "div",
-        { className: "" },
+        'div',
+        null,
         _react2.default.createElement(
-          "p",
+          'header',
           null,
-          "June 16, 2019"
+          _react2.default.createElement(
+            _reactRouterDom.Link,
+            { to: '/' },
+            'Back'
+          )
         ),
         _react2.default.createElement(
-          "h1",
+          'main',
           null,
-          "56.5 Kg"
-        ),
-        _react2.default.createElement(
-          "p",
-          null,
-          "Body Weight"
+          _react2.default.createElement(
+            'h1',
+            null,
+            'Weight'
+          ),
+          _react2.default.createElement(
+            'p',
+            null,
+            'June 16, 2019'
+          ),
+          _react2.default.createElement(
+            'h1',
+            null,
+            '56.5 Kg'
+          ),
+          _react2.default.createElement(
+            'p',
+            null,
+            'Body Weight'
+          )
         )
       );
     }
@@ -26943,6 +26973,8 @@ var _react = __webpack_require__(8);
 
 var _react2 = _interopRequireDefault(_react);
 
+var _reactRouterDom = __webpack_require__(203);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -26961,15 +26993,28 @@ var Profile = function (_React$Component) {
   }
 
   _createClass(Profile, [{
-    key: "render",
+    key: 'render',
     value: function render() {
       return _react2.default.createElement(
-        "div",
-        { className: "" },
+        'div',
+        null,
         _react2.default.createElement(
-          "h1",
+          'header',
           null,
-          "Profile!"
+          _react2.default.createElement(
+            _reactRouterDom.Link,
+            { to: '/' },
+            'Back'
+          )
+        ),
+        _react2.default.createElement(
+          'main',
+          null,
+          _react2.default.createElement(
+            'h1',
+            null,
+            'Profile!'
+          )
         )
       );
     }
