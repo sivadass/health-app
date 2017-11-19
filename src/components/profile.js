@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 class Profile extends React.Component {
   render(){
     return(
-      <div>
+      <div className="profile">
         <header>
           <Link to="" className="menu-button">
             <img src="dist/back.svg" alt=""/>
