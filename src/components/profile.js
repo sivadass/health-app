@@ -14,7 +14,34 @@ class Profile extends React.Component {
           </Link>
         </header>
         <main>
-          <h1>Profile!</h1>
+          <div className="progress-wrapper">
+            <div className="container">
+              <div className="label one">Metric 1</div>
+              <div className="progress-bar">
+                <div className="progress fill-1">
+                  <div className="glow"></div>
+                </div>
+              </div>
+            </div>
+
+            <div className="container">
+              <div className="label two">Metric 2</div>
+              <div className="progress-bar">
+                <div className="progress fill-2">
+                  <div className="glow"></div>
+                </div>
+              </div>
+            </div>
+
+            <div className="container">
+              <div className="label three">Metric 3</div>
+              <div className="progress-bar">
+                <div className="progress fill-3">
+                  <div className="glow"></div>
+                </div>
+              </div>
+            </div>
+          </div>
         </main>
       </div>
     )

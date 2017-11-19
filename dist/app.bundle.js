@@ -26944,9 +26944,62 @@ var Profile = function (_React$Component) {
           'main',
           null,
           _react2.default.createElement(
-            'h1',
-            null,
-            'Profile!'
+            'div',
+            { className: 'progress-wrapper' },
+            _react2.default.createElement(
+              'div',
+              { className: 'container' },
+              _react2.default.createElement(
+                'div',
+                { className: 'label one' },
+                'Metric 1'
+              ),
+              _react2.default.createElement(
+                'div',
+                { className: 'progress-bar' },
+                _react2.default.createElement(
+                  'div',
+                  { className: 'progress fill-1' },
+                  _react2.default.createElement('div', { className: 'glow' })
+                )
+              )
+            ),
+            _react2.default.createElement(
+              'div',
+              { className: 'container' },
+              _react2.default.createElement(
+                'div',
+                { className: 'label two' },
+                'Metric 2'
+              ),
+              _react2.default.createElement(
+                'div',
+                { className: 'progress-bar' },
+                _react2.default.createElement(
+                  'div',
+                  { className: 'progress fill-2' },
+                  _react2.default.createElement('div', { className: 'glow' })
+                )
+              )
+            ),
+            _react2.default.createElement(
+              'div',
+              { className: 'container' },
+              _react2.default.createElement(
+                'div',
+                { className: 'label three' },
+                'Metric 3'
+              ),
+              _react2.default.createElement(
+                'div',
+                { className: 'progress-bar' },
+                _react2.default.createElement(
+                  'div',
+                  { className: 'progress fill-3' },
+                  _react2.default.createElement('div', { className: 'glow' })
+                )
+              )
+            )
           )
         )
       );
