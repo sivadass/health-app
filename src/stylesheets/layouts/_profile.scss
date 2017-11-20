@@ -60,13 +60,15 @@ $glow-color:#04bfff;
 .progress-bar.primary{
   height: 4px;
   .progress{
-    background-color: #5dd7fa;
+    background: linear-gradient(to right, #5dd7fa , #6ff9de);
     .glow{
       &:after{
         height: 4px;
+        top: 0;
       }
       &:before{
         height: 4px;
+
       }
     }
   }

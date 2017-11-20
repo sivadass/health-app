@@ -497,9 +497,10 @@ header {
 .progress-bar.primary {
   height: 4px; }
   .progress-bar.primary .progress {
-    background-color: #5dd7fa; }
+    background: linear-gradient(to right, #5dd7fa, #6ff9de); }
     .progress-bar.primary .progress .glow:after {
-      height: 4px; }
+      height: 4px;
+      top: 0; }
     .progress-bar.primary .progress .glow:before {
       height: 4px; }
 
