@@ -464,7 +464,8 @@ header {
     flex-basis: 33.33333%; }
     .measurements .measurement-item .wrapper {
       padding: 16px;
-      border: 1px solid #55708d; }
+      border: 1px solid #55708d;
+      border-width: 0px 1px 1px 0; }
     .measurements .measurement-item h2 {
       font-size: 32px;
       margin-bottom: 8px;
@@ -490,7 +491,8 @@ header {
   opacity: 0.4; }
 
 .progress-item {
-  margin-bottom: 24px; }
+  margin-bottom: 8px;
+  padding-bottom: 16px; }
 
 .progress-bar {
   height: 3px;
