@@ -13,6 +13,11 @@ class Profile extends React.Component {
             <img src="dist/settings.svg" alt=""/>
           </Link>
         </header>
+        <div className="progress-bar primary">
+          <div className="progress fill-1">
+            <div className="glow"></div>
+          </div>
+        </div>
         <main>
           <div className="measurements">
             <div className="measurement-item">

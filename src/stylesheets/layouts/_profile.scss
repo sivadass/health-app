@@ -56,6 +56,13 @@ $glow-color:#04bfff;
   margin-bottom: 8px;
   padding-bottom: 16px;
 }
+
+.progress-bar.primary{
+  height: 4px;
+  .progress{
+    background-color: #5dd7fa;
+  }
+}
 .progress-bar {
   height:3px;
   width:100%;

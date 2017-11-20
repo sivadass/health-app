@@ -27519,6 +27519,15 @@ var Profile = function (_React$Component) {
           )
         ),
         _react2.default.createElement(
+          'div',
+          { className: 'progress-bar primary' },
+          _react2.default.createElement(
+            'div',
+            { className: 'progress fill-1' },
+            _react2.default.createElement('div', { className: 'glow' })
+          )
+        ),
+        _react2.default.createElement(
           'main',
           null,
           _react2.default.createElement(

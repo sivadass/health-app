@@ -403,7 +403,7 @@ header {
     width: 48px; }
 
 .profile header {
-  height: 150px;
+  height: 200px;
   background: #232323 url(8cfa53d7d3703455ddcf4a217f7599a9.jpg) center no-repeat;
   background-size: cover; }
 
@@ -493,6 +493,11 @@ header {
 .progress-item {
   margin-bottom: 8px;
   padding-bottom: 16px; }
+
+.progress-bar.primary {
+  height: 4px; }
+  .progress-bar.primary .progress {
+    background-color: #5dd7fa; }
 
 .progress-bar {
   height: 3px;
