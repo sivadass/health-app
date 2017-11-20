@@ -1,5 +1,33 @@
+// Header Section
 
-// progress bar appearance
+// Grids Section
+.measurements{
+  display: flex;
+  display: -webkit-flex;
+  flex-wrap: wrap;
+  .measurement-item{
+    flex-basis: 33.33333%;
+    .wrapper{
+      padding: 16px;
+      border: 1px solid #55708d;
+    }
+    h2{
+      font-size: 32px;
+      margin-bottom: 8px;
+      font-weight: 300;
+      span{
+        font-size: 18px;
+        font-weight: 300;
+      }
+    }
+    p{
+      font-size: 12px;
+      opacity: 0.4;
+    }
+  }
+}
+
+// Progress Bar Section
 $background-color:#3d5980;
 $bar-empty:#55708d;
 $bar-color:#cfd6dd;

@@ -27528,14 +27528,123 @@ var Profile = function (_React$Component) {
               'div',
               { className: 'measurement-item' },
               _react2.default.createElement(
-                'h2',
-                null,
-                '25'
-              ),
+                'div',
+                { className: 'wrapper' },
+                _react2.default.createElement(
+                  'h2',
+                  null,
+                  '25'
+                ),
+                _react2.default.createElement(
+                  'p',
+                  null,
+                  'Age'
+                )
+              )
+            ),
+            _react2.default.createElement(
+              'div',
+              { className: 'measurement-item' },
               _react2.default.createElement(
-                'p',
-                null,
-                'Age'
+                'div',
+                { className: 'wrapper' },
+                _react2.default.createElement(
+                  'h2',
+                  null,
+                  'A'
+                ),
+                _react2.default.createElement(
+                  'p',
+                  null,
+                  'Blood T...'
+                )
+              )
+            ),
+            _react2.default.createElement(
+              'div',
+              { className: 'measurement-item' },
+              _react2.default.createElement(
+                'div',
+                { className: 'wrapper' },
+                _react2.default.createElement(
+                  'h2',
+                  null,
+                  '20.4'
+                ),
+                _react2.default.createElement(
+                  'p',
+                  null,
+                  'BMI'
+                )
+              )
+            ),
+            _react2.default.createElement(
+              'div',
+              { className: 'measurement-item' },
+              _react2.default.createElement(
+                'div',
+                { className: 'wrapper' },
+                _react2.default.createElement(
+                  'h2',
+                  null,
+                  '172 ',
+                  _react2.default.createElement(
+                    'span',
+                    null,
+                    'cm'
+                  )
+                ),
+                _react2.default.createElement(
+                  'p',
+                  null,
+                  'Height'
+                )
+              )
+            ),
+            _react2.default.createElement(
+              'div',
+              { className: 'measurement-item' },
+              _react2.default.createElement(
+                'div',
+                { className: 'wrapper' },
+                _react2.default.createElement(
+                  'h2',
+                  null,
+                  '53 ',
+                  _react2.default.createElement(
+                    'span',
+                    null,
+                    'kg'
+                  )
+                ),
+                _react2.default.createElement(
+                  'p',
+                  null,
+                  'Weight'
+                )
+              )
+            ),
+            _react2.default.createElement(
+              'div',
+              { className: 'measurement-item' },
+              _react2.default.createElement(
+                'div',
+                { className: 'wrapper' },
+                _react2.default.createElement(
+                  'h2',
+                  null,
+                  '21 ',
+                  _react2.default.createElement(
+                    'span',
+                    null,
+                    '%'
+                  )
+                ),
+                _react2.default.createElement(
+                  'p',
+                  null,
+                  'Fat'
+                )
               )
             )
           ),

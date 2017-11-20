@@ -16,8 +16,45 @@ class Profile extends React.Component {
         <main>
           <div className="measurements">
             <div className="measurement-item">
-              <h2>25</h2>
-              <p>Age</p>
+              <div className="wrapper">
+                <h2>25</h2>
+                <p>Age</p>
+              </div>
+            </div>
+
+            <div className="measurement-item">
+              <div className="wrapper">
+                <h2>A</h2>
+                <p>Blood T...</p>
+              </div>
+            </div>
+
+            <div className="measurement-item">
+              <div className="wrapper">
+                <h2>20.4</h2>
+                <p>BMI</p>
+              </div>
+            </div>
+
+            <div className="measurement-item">
+              <div className="wrapper">
+                <h2>172 <span>cm</span></h2>
+                <p>Height</p>
+              </div>
+            </div>
+
+            <div className="measurement-item">
+              <div className="wrapper">
+                <h2>53 <span>kg</span></h2>
+                <p>Weight</p>
+              </div>
+            </div>
+
+            <div className="measurement-item">
+              <div className="wrapper">
+                <h2>21 <span>%</span></h2>
+                <p>Fat</p>
+              </div>
             </div>
           </div>
           <div className="progress-wrapper">

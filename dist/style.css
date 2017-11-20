@@ -23,7 +23,7 @@ h1,
 h2,
 h3,
 h4 {
-  font-weight: 400; }
+  font-weight: 300; }
 
 input[type="text"],
 input[type="number"],
@@ -426,7 +426,8 @@ header {
   padding: 16px; }
   .kpi-item h2 {
     color: #333;
-    font-size: 32px; }
+    font-size: 32px;
+    font-weight: 300; }
     .kpi-item h2 span {
       color: #999;
       font-size: 18px; }
@@ -454,6 +455,26 @@ header {
 
 .morning-activity {
   padding: 0 16px; }
+
+.measurements {
+  display: flex;
+  display: -webkit-flex;
+  flex-wrap: wrap; }
+  .measurements .measurement-item {
+    flex-basis: 33.33333%; }
+    .measurements .measurement-item .wrapper {
+      padding: 16px;
+      border: 1px solid #55708d; }
+    .measurements .measurement-item h2 {
+      font-size: 32px;
+      margin-bottom: 8px;
+      font-weight: 300; }
+      .measurements .measurement-item h2 span {
+        font-size: 18px;
+        font-weight: 300; }
+    .measurements .measurement-item p {
+      font-size: 12px;
+      opacity: 0.4; }
 
 .profile {
   background: #38527b;
