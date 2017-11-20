@@ -142,15 +142,7 @@ td{
   }
 }
 .container{
-  padding: 16px 64px;
-  @media (max-width: 768px){
-    padding-left: 32px;
-    padding-right: 32px;
-  }
-  @media (max-width: 480px){
-    padding-left: 16px;
-    padding-right: 16px;
-  }
+  padding: 0 16px;
 }
 .page-title{
   display: flex;

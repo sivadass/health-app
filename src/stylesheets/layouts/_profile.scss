@@ -8,8 +8,23 @@ $glow-width:60px;
 $glow-radius:10px;
 $glow-color:#04bfff;
 
+
+.profile{
+  background: #38527b;
+  color: #fff;
+  min-height: 100vh;
+}
+
 .progress-wrapper{
   background: $background-color;
+}
+.progress-title{
+  padding: 16px;
+  margin-bottom: 8px;
+  opacity: 0.4;
+}
+.progress-item{
+  margin-bottom: 24px;
 }
 .progress-bar {
   height:3px;
@@ -61,7 +76,12 @@ $glow-color:#04bfff;
   font-family:inherit;
   color:white;
   font-size: 16px;
-  margin-bottom: 8px;
+  margin-bottom: 16px;
+  display: flex;
+  justify-content: space-between;
+  .label-value{
+    opacity: 0.4;
+  }
 }
 
 // animations
@@ -108,6 +128,6 @@ $glow-color:#04bfff;
   opacity:0;
 }
 @keyframes label {
-  0% { opacity:0; transform:translateY(10px); }
+  0% { opacity:0; transform:translateY(20px); }
   100% { opacity:0.9; transform:translateY(0); }
 }
