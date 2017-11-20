@@ -61,6 +61,14 @@ $glow-color:#04bfff;
   height: 4px;
   .progress{
     background-color: #5dd7fa;
+    .glow{
+      &:after{
+        height: 4px;
+      }
+      &:before{
+        height: 4px;
+      }
+    }
   }
 }
 .progress-bar {

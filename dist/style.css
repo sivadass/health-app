@@ -498,6 +498,10 @@ header {
   height: 4px; }
   .progress-bar.primary .progress {
     background-color: #5dd7fa; }
+    .progress-bar.primary .progress .glow:after {
+      height: 4px; }
+    .progress-bar.primary .progress .glow:before {
+      height: 4px; }
 
 .progress-bar {
   height: 3px;
