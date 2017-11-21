@@ -644,13 +644,13 @@ header {
     left: 0; }
     @media (max-width: 480px) {
       .weight .chart-wrapper {
-        height: initial; } }
+        height: 360px !important; } }
     .weight .chart-wrapper .VictoryContainer {
       height: 288px !important;
       overflow: hidden; }
       @media (max-width: 480px) {
         .weight .chart-wrapper .VictoryContainer {
-          height: 360% !important; } }
+          height: 360px !important; } }
 
 .primary-info {
   padding: 48px; }

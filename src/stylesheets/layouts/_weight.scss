@@ -8,13 +8,13 @@
     width: 100%;
     left: 0;
     @media (max-width: 480px) {
-      height: initial;
+      height: 360px !important;
     }
     .VictoryContainer{
       height: 288px !important;
       overflow: hidden;
       @media (max-width: 480px) {
-        height: 360% !important;
+        height: 360px !important;
       }
     }
   }
