@@ -408,7 +408,7 @@ header {
   background-size: cover; }
 
 .welcome {
-  margin-bottom: 24px;
+  margin-bottom: 16px;
   padding: 0 16px; }
   .welcome span {
     color: #46accb; }
@@ -418,7 +418,7 @@ header {
   display: -webkit-flex;
   flex-wrap: wrap;
   -webkit-flex-wrap: wrap;
-  margin-bottom: 24px; }
+  margin-bottom: 16px; }
 
 .kpi-item {
   flex-basis: 50%;
@@ -454,7 +454,37 @@ header {
   border-right-color: transparent; }
 
 .morning-activity {
-  padding: 0 16px; }
+  padding: 0;
+  position: relative; }
+  .morning-activity h1,
+  .morning-activity p {
+    padding: 0 16px; }
+  .morning-activity .chart-wrapper {
+    opacity: 0.6; }
+  .morning-activity .VictoryContainer {
+    width: 100% !important;
+    height: 157px !important; }
+
+.profile header {
+  position: relative; }
+  .profile header a {
+    z-index: 2; }
+  .profile header .backdrop {
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.66);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 0 16px; }
+  .profile header h1 {
+    font-size: 36px;
+    margin-bottom: 16px;
+    margin-top: 60px; }
+  .profile header p {
+    font-size: 18px;
+    opacity: 0.4; }
 
 .measurements {
   display: flex;
@@ -530,7 +560,7 @@ header {
     box-shadow: 0px 0px 10px #cfd6dd, 0px 0px 10px #04bfff;
     z-index: -5; }
   .progress-bar .glow::after {
-    background: linear-gradient(to right, #3d5980 0%, transparent 100%);
+    background: linear-gradient(to right, #38527b 0%, transparent 100%);
     height: calc(100% + 10px + 10px);
     width: calc(100% + 10px);
     top: -10px;
@@ -602,5 +632,37 @@ header {
   100% {
     opacity: 0.9;
     transform: translateY(0); } }
+
+.weight {
+  height: 100%;
+  position: relative; }
+  .weight .chart-wrapper {
+    position: absolute;
+    bottom: 0;
+    height: 288px;
+    width: 100%;
+    left: 0; }
+    @media (max-width: 480px) {
+      .weight .chart-wrapper {
+        height: initial; } }
+    .weight .chart-wrapper .VictoryContainer {
+      height: 288px !important;
+      overflow: hidden; }
+      @media (max-width: 480px) {
+        .weight .chart-wrapper .VictoryContainer {
+          height: 360% !important; } }
+
+.primary-info {
+  padding: 48px; }
+  .primary-info h1 {
+    font-size: 60px;
+    color: #232323; }
+  .primary-info p {
+    font-size: 20px;
+    color: #666; }
+    .primary-info p.date {
+      font-size: 16px;
+      color: #999;
+      margin-bottom: 16px; }
 
 /*# sourceMappingURL=style.css.map*/

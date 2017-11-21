@@ -1,0 +1,38 @@
+.weight{
+  height: 100%;
+  position: relative;
+  .chart-wrapper{
+    position: absolute;
+    bottom: 0;
+    height: 288px;
+    width: 100%;
+    left: 0;
+    @media (max-width: 480px) {
+      height: initial;
+    }
+    .VictoryContainer{
+      height: 288px !important;
+      overflow: hidden;
+      @media (max-width: 480px) {
+        height: 360% !important;
+      }
+    }
+  }
+}
+
+.primary-info{
+  padding: 48px;
+  h1{
+    font-size: 60px;
+    color: #232323;
+  }
+  p{
+    font-size: 20px;
+    color: #666;
+    &.date{
+      font-size: 16px;
+      color: #999;
+      margin-bottom: 16px;
+    }
+  }
+}

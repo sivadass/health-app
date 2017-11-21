@@ -12,6 +12,10 @@ class Profile extends React.Component {
           <Link to="/weight" className="menu-button">
             <img src="dist/settings.svg" alt=""/>
           </Link>
+          <div className="backdrop">
+            <h1>Jana Novakova</h1>
+            <p>GOALS 70%</p>
+          </div>
         </header>
         <div className="progress-bar primary">
           <div className="progress fill-1">

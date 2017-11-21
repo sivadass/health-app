@@ -14,11 +14,13 @@
   "license": "MIT",
   "dependencies": {
     "axios": "^0.16.2",
+    "lodash": "^4.17.4",
     "prop-types": "^15.6.0",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
     "react-router-dom": "^4.1.2",
-    "react-trend": "^1.2.4"
+    "react-trend": "^1.2.4",
+    "victory": "^0.24.2"
   },
   "devDependencies": {
     "babel-core": "^6.24.1",

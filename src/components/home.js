@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import Trend from 'react-trend';
+import ActivityChart from './activity-chart';
 
 class Home extends React.Component {
   render(){
@@ -97,6 +98,9 @@ class Home extends React.Component {
               <span>Today</span>
               <span>Average</span>
             </p>
+            <div className="chart-wrapper">
+              <ActivityChart height={100}/>
+            </div>
           </div>
         </main>
         

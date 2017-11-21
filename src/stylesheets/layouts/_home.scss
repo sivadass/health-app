@@ -1,5 +1,5 @@
 .welcome{
-  margin-bottom: 24px;
+  margin-bottom: 16px;
   padding: 0 16px;
   span{
     color: #46accb;
@@ -10,7 +10,7 @@
   display: -webkit-flex;
   flex-wrap: wrap;
   -webkit-flex-wrap: wrap;
-  margin-bottom: 24px;
+  margin-bottom: 16px;
 }
 .kpi-item{
   flex-basis: 50%;
@@ -50,5 +50,17 @@
   border-right-color: transparent;
 }
 .morning-activity{
-  padding: 0 16px;
+  h1,
+  p{
+    padding: 0 16px;
+  }
+  padding: 0;
+  position: relative;
+  .chart-wrapper{
+    opacity: 0.6;
+  }
+  .VictoryContainer{
+    width: 100% !important;
+    height: 157px !important;
+  }
 }
