@@ -17,7 +17,7 @@ class Home extends React.Component {
         </header>
         <main>
           <div className="welcome">
-            <h1>Welcome back Jana,<br/> Things look <span>alright</span></h1>
+            <h1>Welcome back Jana,<br/> Things look <Link to="/weight" className="menu-button"><span>alright</span></Link></h1>
           </div>
           <div className="kpi">
             <div className="kpi-item temperature">
