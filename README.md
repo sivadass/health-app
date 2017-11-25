@@ -2,7 +2,7 @@
 
 Personal Health Monitoring App
 
-![Health App](https://res.cloudinary.com/sivadass/image/upload/v1511593497/screen-shots/health-app-preview.gif "Health App")
+![Health App](https://res.cloudinary.com/sivadass/video/upload/v1511594346/screen-shots/Health_app.gif "Health App")
 
 
 ## Live Demo 
